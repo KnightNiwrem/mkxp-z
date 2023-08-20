@@ -5,6 +5,7 @@ on:
   push:
     branches: ['dev', 'autobuild']
     paths-ignore: ['*.md', '*.json', '*.png']
+  workflow_dispatch:
 
 jobs:
   build-windows:
